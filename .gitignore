@@ -1,0 +1,7 @@
+src/*.o
+lib/
+harmonic_oscillator
+rossler
+random_walk
+percolation_ex
+lattice_gas
