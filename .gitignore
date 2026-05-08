@@ -5,10 +5,3 @@ rossler
 random_walk
 percolation_ex
 lattice_gas
-
-# Generated plots (kept out of version control — run `make plots` to regenerate)
-plots/harmonic_oscillator/
-plots/rossler/
-plots/random_walk/
-plots/percolation/
-plots/lattice_gas/
