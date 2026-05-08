@@ -33,5 +33,8 @@ examples: $(LIB) $(EXAMPLES)
 $(EXAMPLES): %: $(EXDIR)/%.c $(LIB)
 	$(CC) $(CFLAGS) $(INC) $< -L$(LIBDIR) -lphyslib -lm -o $@
 
+plots: examples
+	python3 plots/generate_plots.py
+
 clean:
 	rm -f $(SRCDIR)/*.o $(EXAMPLES) $(LIB)
